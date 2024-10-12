@@ -1,0 +1,18 @@
+[workspace]
+exclude = ["template"]
+members = ["day_001", "day_002"]
+resolver = "2"
+
+[workspace.package]
+authors = ["Sanriago SILVA"]
+categories = ["rust-patterns"]
+description = "Answers for the Advent of Code 2022 exercises"
+documentation = "README.md"
+edition = "2021"
+homepage = "https://github.com/sssilvar/aoc-2022"
+keywords = ["training", "rust", "exercises", "advent-of-code", "2022"]
+license = "CC-BY-NC-SA-4.0"
+publish = false
+readme = "README.md"
+repository = "https://github.com/sssilvar/aoc-2022"
+version = "0.1.0"
